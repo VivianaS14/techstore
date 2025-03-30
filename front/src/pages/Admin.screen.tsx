@@ -73,6 +73,7 @@ export const Admin = () => {
     }
     if (data) {
       setNewDevice(false);
+      setEditDevice(0);
       getData();
     }
 
