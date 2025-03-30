@@ -15,10 +15,10 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { userStore } from "../../store/user.store";
 
-const pages = ["Products"];
+const pages = ["Celulares"];
 const settings = [
-  { page: "Dashboard", to: "/admin" },
-  { page: "Logout", to: "/" },
+  { page: "Panel de Control", to: "/admin" },
+  { page: "Cerrar Sesión", to: "/" },
 ];
 
 export const Header = () => {
@@ -139,7 +139,7 @@ export const Header = () => {
             ) : (
               <Button sx={{ my: 2, color: "white", display: "block" }}>
                 <NavLink to="/admin" end style={{ textDecoration: "none" }}>
-                  <Typography sx={{ color: "white" }}>Admin</Typography>
+                  <Typography sx={{ color: "white" }}>Administrador</Typography>
                 </NavLink>
               </Button>
             )}

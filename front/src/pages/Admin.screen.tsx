@@ -126,7 +126,9 @@ export const Admin = () => {
     <div style={{ padding: "1rem" }}>
       {newDevice ? (
         <Box sx={{ m: 1, display: "grid", placeItems: "center" }}>
-          <Typography variant="h5">Nuevo Dispositivo</Typography>
+          <Typography variant="h5">
+            {editDevice ? "Editar Celular" : "Nuevo Celular"}
+          </Typography>
           <Grid2
             container
             spacing={2}
@@ -228,7 +230,7 @@ export const Admin = () => {
             variant="contained"
             sx={{ m: 1, width: "30ch", background: "black" }}
           >
-            Crear Producto
+            {editDevice ? "Editar Celular" : "Crear Celular"}
           </Button>
         </Box>
       ) : (
@@ -236,9 +238,9 @@ export const Admin = () => {
           <Button
             onClick={() => setNewDevice(true)}
             variant="contained"
-            style={{ background: "black" }}
+            style={{ background: "black", margin: 10 }}
           >
-            Crear Producto
+            Crear Celular
           </Button>
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="simple table">

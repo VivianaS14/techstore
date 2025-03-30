@@ -26,7 +26,7 @@
     "price": 644.45,
     "stack": 41,
     "discount": true,
-    "discountPercentage": 6,
+    "discount_percentage": 6,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc_k2fAOkSXCaOy9Z9KSINtTRkKccFTKQX-w&s"
   },
   {
@@ -41,7 +41,7 @@
     "price": 486.54,
     "stack": 169,
     "discount": true,
-    "discountPercentage": 15,
+    "discount_percentage": 15,
     "image": "https://suprememobiles.in/cdn/shop/files/1_2fb2b23b-47a0-4929-a4d5-a17a6da68fe2.png?v=1706595033"
   },
   {
@@ -56,7 +56,7 @@
     "price": 871.21,
     "stack": 72,
     "discount": true,
-    "discountPercentage": 8,
+    "discount_percentage": 8,
     "image": "https://static0.anpoimages.com/wordpress/wp-content/uploads/2024/05/motorola-edge-2024-square.jpeg"
   },
   {
@@ -71,7 +71,7 @@
     "price": 745.88,
     "stack": 89,
     "discount": true,
-    "discountPercentage": 28,
+    "discount_percentage": 28,
     "image": "https://i.gadgets360cdn.com/large/14_ultra_xiaomi_1723100712002.jpg"
   }
 ]
