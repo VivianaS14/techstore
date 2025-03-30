@@ -2,6 +2,8 @@
 
 Este es un proyecto de **TechStore**, una aplicación desarrollada con **Node.js (Express)** para el backend y **React** para el frontend. La base de datos utilizada es **PostgreSQL**.
 
+Link de video para vista general de la aplicación: https://youtu.be/a-Oh9PgiD0U
+
 ---
 
 ## 📌 **Instalación de PostgreSQL**
